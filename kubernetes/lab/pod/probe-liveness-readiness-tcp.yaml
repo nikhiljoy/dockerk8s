@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: probe-liveness-readiness-tcp
+  name: probe-readiness-tcp
 spec:
   containers:
-  - name: probe-liveness-readiness-tcp
+  - name: probe-readiness-tcp
     image: k8s.gcr.io/goproxy:0.1
     ports:
     - containerPort: 8080
