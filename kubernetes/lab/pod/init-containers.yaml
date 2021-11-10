@@ -11,6 +11,6 @@ spec:
   - name: init-service
     image: busybox:1.28
     command:
-    - /bin/sh
-    - -c
-    - wget -O index.html https://google.com/index.html
+     - /bin/sh
+     - -c
+     - wget -O index.html https://google.com/index.html
